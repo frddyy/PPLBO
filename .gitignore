@@ -1,0 +1,27 @@
+# Mengabaikan direktori dan file spesifik
+/Week 1/Spring/
+/Week 1/apache-freemarker-2.3.32-bin/
+
+# Mengabaikan file spesifik di dalam direktori Spring
+/Week 1/Deskripsi Tugas 1.docx.pdf
+/Week 1/Spring (AI 3).pdf
+/Week 1/WhatsApp Image 2024-02-15 at 14.06.42_97d15a19.jpg
+
+# Mengabaikan file konfigurasi dan direktori build/output untuk projek Java/Spring
+**/target/
+**/.mvn/
+**/.vscode/
+HELP.md
+mvnw
+mvnw.cmd
+pom.xml
+
+# Mengabaikan file gitignore tanpa titik (jika tidak diperlukan)
+**/gitignore
+
+# File dan direktori yang umum diabaikan
+*.class
+*.log
+*.jar
+
+.DS_Store
