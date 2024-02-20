@@ -1,91 +1,27 @@
-# Maven
-target/
-!.mvn/wrapper/maven-wrapper.jar
-/mvnw
-/mvnw.cmd
-/.mvn/wrapper/maven-wrapper.properties
-
-# STS (Spring Tool Suite)
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-# IntelliJ IDEA
-.idea/
-*.iws
-*.iml
-*.ipr
-
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# Eclipse
-/.metadata
-/bin/
-/tmp/
-/.classpath
-/.project
-/.settings/
-
-# VS Code
-.vscode/
-
-# Build directories
-/build/
-/out/
-
-# Other files and directories to ignore
-HELP.md
-**/src/main/**/target/
-**/src/test/**/target/
-**/src/main/**/build/
-**/src/test/**/build/
-*.log
-*.class
-
-# Specific files and directories (custom additions)
-/apache-freemarker-2.3.32-bin/
+# Mengabaikan direktori dan file spesifik
+/PRAKTIKUM/Week 1/apache-freemarker-2.3.32/
 /Spring/
-/Deskripsi Tugas 1.docx.pdf
-/Spring All (3).pdf
-/WhatsApp Image 2024-02-15 at 14.06.42_97d15a19.jpg
 
-# Compiled source #
-*.com
+# Mengabaikan file spesifik di dalam direktori Spring
+/Week 1/Deskripsi Tugas 1.docx.pdf
+/Week 1/Spring (AI 3).pdf
+/Week 1/WhatsApp Image 2024-02-15 at 14.06.42_97d15a19.jpg
+
+# Mengabaikan file konfigurasi dan direktori build/output untuk projek Java/Spring
+**/target/
+**/.mvn/
+**/.vscode/
+HELP.md
+mvnw
+mvnw.cmd
+pom.xml
+
+# Mengabaikan file gitignore tanpa titik (jika tidak diperlukan)
+**/gitignore
+
+# File dan direktori yang umum diabaikan
 *.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
 *.log
-*.sql
-*.sqlite
+*.jar
 
-# OS generated files #
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
